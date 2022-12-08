@@ -5,7 +5,7 @@
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Portfolio Setup</b></h3>
+  <h3><b>My-Portfolio-Website</b></h3>
 
 </div>
 
@@ -27,9 +27,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio Setup <a name="about-project"></a>
+# 📖 My-Portfolio-Website <a name="My-Portfolio-Website"></a>
 
-In this project, I have set up my personal portfolio site for mobile devices.
+This project represents my personal portforlio for a mobile device.
 
 - Added a gitignore file
 - Added descriptive README file.
