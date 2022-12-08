@@ -23,7 +23,7 @@
 .sky h3 {
   width: 77px;
   height: 24px;
-  font-family: 'Roboto'sans-serif;
+  font-family: 'Roboto',sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -78,10 +78,10 @@
 
 .cell h1 {
   width: 320px;
-  height: 120px;
-  font-family: 'Crete Round'sans-serif;
+  height: 190px;
+  font-family: 'Crete Round',sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 200;
   font-size: 56px;
   line-height: 64px;
   letter-spacing: 0.37px;
@@ -94,7 +94,7 @@
 .cell h3 {
   width: 327px;
   height: 27px;
-  font-family: 'Roboto'sans-serif;
+  font-family: 'Roboto',sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -110,7 +110,7 @@
 .cell p {
   width: 327px;
   height: 123px;
-  font-family: 'Poppins'sans-serif;
+  font-family: 'Poppins',sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
