@@ -1,57 +1,138 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<a name="readme-top"></a>
 
- My portfolio
+<div align="center">
 
-> Description the project.
-This is my personal portfolio
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
 
-## Built With
-- Major languages HTML, CSS
+  <h3><b>Portfolio Setup</b></h3>
 
-[Live Demo Link]()
+</div>
 
+# 📗Table of Contents
 
-## Getting Started
+- [📖 About the Project](#about-project)
+- [🛠 Built With](#built-with)
+- [Tech Stack](#tech-stack)
+- [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Usage](#usage)
+- [👥 Authors](#authors)
+- [🔮 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-To get a local copy up and running follow these simple example steps.
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 Portfolio Setup <a name="about-project"></a>
+
+In this project, I have set up my personal portfolio site for mobile devices.
+
+- Added a gitignore file
+- Added descriptive README file.
+- Added node_modules into the gitignore file
+- Set up a [linter for HTML and CSS](https://github.com/microverseinc/linters-config)
+- Added .html file
+- Added .css file
+- Added additional linter files
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>.md</li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **No linter Errors**
+- **Used GitHub flow**
+- **Figma design to UI development**
+- **Used Flexbox to place elements**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 Getting Started <a name="getting-started"></a>
 
 ### Prerequisites
-Web Browser
-Code Editor
+
+In order to run this project you need:
+
+A Browser
+
 ### Setup
-~~~
-bash
-git clone (https://github.com/God-Logic/My-Portfolio-Website)
-cd My-Portfolio-website
-~~~
 
+Clone this repository to your desired folder:
 
+[`God-Logic/My-Portfolio-Website](https://github.com/God-Logic/My-Portfolio-Website)
 
+### Install
 
+Install this project with:
+A commandline interface e.g Gitbash
 
+### Usage
 
-👤 **Author**
+To run the project, execute the following command:
+**Click on the live server button on your IDE**
 
-- GitHub: [@God-Logic](https://github.com/God-Logic)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- AUTHORS -->
 
+## 👥 Authors <a name="authors"></a>
 
-## 🤝 Contributing
+👤 **Maboela Maserame**
+
+- GitHub: [@githubhandle](https://github.com/God-Logic)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/maboela-maserame-35a3b71b6/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+### 🔮 Future Features <a name="future-features"></a>
+
+- A Project section showcasing my recent works
+- An About me section
+- A Contact me section
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐ if you like this project!
+<!-- ACKNOWLEDGMENTS -->
 
-## Acknowledgments
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+🙏 Acknowledgments
+Give credit to everyone who inspired your codebase.
 
-## 📝 License
+I appreciate Microverse for providing the learning resources for this exercise, and my coding partners for helping me out when I ran into problems.
 
-This project is [MIT](./MIT.md) licensed.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
