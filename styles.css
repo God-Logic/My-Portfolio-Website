@@ -21,18 +21,20 @@
 }
 
 .sky h3 {
-  width: 67px;
-  height: 2px;
+  width: 77px;
+  height: 24px;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
-  line-height: 11px;
+  font-size: 18px;
+  line-height: 24px;
   display: flex;
-  align-items: initial;
-  color: #fff;
-  margin-left: 10px;
-  flex: none;
+  align-items: center;
   text-align: center;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 #sky {
@@ -40,7 +42,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  color: #fff;
+  color:#FFFFFF ;
   margin-right: 20px;
   margin-bottom: 10px;
   float: right;
@@ -52,8 +54,8 @@
   right: 16.67%;
   left: 16.67%;
   height: 2px;
-  width: 22px;
-  border: 2px solid #acb7c3;
+  width: 17px;
+  border: 1px solid #FFFFFF;
   margin-bottom: 3px;
 }
 
@@ -66,7 +68,7 @@
   text-align: left;
   height: auto;
   width: auto;
-  padding: 120px 24px;
+  padding: 161px 24px;
   gap: 12px;
   background-position: right bottom;
   background-size: 140px;
@@ -75,39 +77,46 @@
 }
 
 .cell h1 {
+  width: 320px;
+  height: 120px;
+  font-family: 'Crete Round';
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
   line-height: 64px;
   letter-spacing: 0.37px;
-  color: #ff6b00;
+  color: #FF6B00;
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 
-.cell h3 {
-  width: 327px;
+.cell h3 {width: 327px;
   height: 27px;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
   display: flex;
   align-items: center;
-  color: #fff5e1;
+  color: #FFF5E1;
   flex: none;
-  order: 0;
+  order: 1;
   flex-grow: 0;
 }
 
 .cell p {
-  flex-wrap: wrap;
+  width: 327px;
+  height: 123px;
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #fff;
+  color: #FFFFFF;
+  flex: none;
+  order: 2;
   flex-grow: 0;
 }
 
@@ -116,11 +125,15 @@ ul {
 }
 
 .page {
-  flex-wrap: wrap;
-  padding: 5px;
-  font-size: 22px;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  width: 200px;
+  height: 40px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
 }
 
 .page li {
