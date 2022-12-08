@@ -23,7 +23,7 @@
 .sky h3 {
   width: 77px;
   height: 24px;
-  font-family: 'Roboto';
+  font-family: 'Roboto'sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -31,7 +31,7 @@
   display: flex;
   align-items: center;
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -42,7 +42,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  color:#FFFFFF ;
+  color: #fff;
   margin-right: 20px;
   margin-bottom: 10px;
   float: right;
@@ -55,7 +55,7 @@
   left: 16.67%;
   height: 2px;
   width: 17px;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #fff;
   margin-bottom: 3px;
 }
 
@@ -79,28 +79,29 @@
 .cell h1 {
   width: 320px;
   height: 120px;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round'sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
   line-height: 64px;
   letter-spacing: 0.37px;
-  color: #FF6B00;
+  color: #ff6b00;
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 
-.cell h3 {width: 327px;
+.cell h3 {
+  width: 327px;
   height: 27px;
-  font-family: 'Roboto';
+  font-family: 'Roboto'sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
   display: flex;
   align-items: center;
-  color: #FFF5E1;
+  color: #fff5e1;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -109,12 +110,12 @@
 .cell p {
   width: 327px;
   height: 123px;
-  font-family: 'Poppins';
+  font-family: 'Poppins'sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #FFFFFF;
+  color: #fff;
   flex: none;
   order: 2;
   flex-grow: 0;
@@ -128,7 +129,7 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   width: 200px;
   height: 40px;
   flex: none;
