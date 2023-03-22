@@ -1,0 +1,15 @@
+{
+  "name": "my-portfolio-website",
+  "version": "1.0.0",
+  "description": "This is my website that will showcase my portfolio as a web developer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "hint": "^7.1.5"
+  }
+}
