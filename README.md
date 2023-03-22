@@ -142,6 +142,7 @@ No deployments required
 👤 **Author1**
 
 - GitHub: [God-Logic](https://github.com/God-Logic)
+- Linkedin:[Maboela Maserame](https://www.linkedin.com/in/maboela-maserame-35a3b71b6/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
