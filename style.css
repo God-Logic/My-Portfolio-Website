@@ -196,9 +196,28 @@
   line-height: 24px;
 }
 
-.Works button:hover{
-  background: #FFF5E1;
-  border: 1px solid #F55800;
+.About-Me button {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 161px;
+  height: 48px;
+  background: #ff6b00;
+  color: #fff;
+  border: none;
+  margin-top: 24px;
+}
+
+.Works button:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
 }
 
 .Cards-Bunch {
@@ -240,28 +259,9 @@
   color: #f4f5f7;
 }
 
-.About-Me button {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 12px;
-  gap: 10px;
-  width: 161px;
-  height: 48px;
-  background: #ff6b00;
-  color: #fff;
-  border: none;
-  margin-top: 24px;
-}
-
-.About-Me button:hover{
-  background: #FFF5E1;
-  border: 1px solid #F55800;
+.About-Me button:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
 }
 
 .horizontal-line {
