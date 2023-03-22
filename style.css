@@ -91,7 +91,10 @@
 }
 
 .social {
-  overflow: hidden;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  list-style: none;
 }
 
 .Illustration {
