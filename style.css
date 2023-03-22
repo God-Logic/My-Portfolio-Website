@@ -31,14 +31,13 @@
   height: fit-content;
   width: fit-content;
   float: left;
-  margin-bottom: 12px;
 }
 
 .hamburger {
   height: 12px;
   float: right;
   width: fit-content;
-  margin-bottom: 16px;
+  margin-bottom: 29px;
 }
 
 .introduction {
