@@ -31,14 +31,13 @@
   height: fit-content;
   width: fit-content;
   float: left;
-  margin-bottom: 12px;
 }
 
 .hamburger {
   height: 12px;
   float: right;
   width: fit-content;
-  margin-bottom: 16px;
+  margin-bottom: 29px;
 }
 
 .introduction {
@@ -102,4 +101,212 @@
   border-bottom-right-radius: 10px;
   height: fit-content;
   width: 100px;
+}
+
+/* My works section */
+
+.Second-Page {
+  padding: 120px 6.4% 60px 6.4%;
+}
+
+.Works h2 {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 270%;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #1c1a19;
+  width: 100%;
+}
+
+.image_one {
+  padding-top: 80px;
+  width: 100%;
+}
+
+.Works h3 {
+  width: 100%;
+  height: 36px;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #091e42;
+}
+
+.Works p {
+  width: 100%;
+  height: 147px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #091e42;
+}
+
+.Works ul {
+  display: flex;
+  gap: 3.2%;
+  list-style-type: none;
+  width: 79.2%;
+  padding: 0;
+  height: 40px;
+}
+
+.Works li {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  width: fit-content;
+  height: 40px;
+  background: #fff;
+  border: 1px solid #8993a4;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #091e42;
+}
+
+.Works button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 124px;
+  height: 48px;
+  background: #ff6b00;
+  border: none;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.About-Me button {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 161px;
+  height: 48px;
+  background: #ff6b00;
+  color: #fff;
+  border: none;
+  margin-top: 24px;
+}
+
+.Works button:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+}
+
+.Cards-Bunch {
+  padding-top: 24px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* The About me section */
+
+.Third-page {
+  background-image: url(images/Group.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  padding: 120px 6.4%;
+  background-color: #1c1a19;
+  height: 450px;
+}
+
+.About-Me h2 {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  margin-bottom: 24px;
+  margin-top: 0;
+}
+
+.About-Me p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f5f7;
+}
+
+.About-Me button:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+}
+
+.horizontal-line {
+  margin: -3px 10% 0 10%;
+  color: #fff;
+}
+
+.horizontal-line hr {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* About skills */
+
+.Achievements {
+  padding: 136px 6.2% 131.54px 6.3%;
+  background-color: #1c1a19;
+}
+
+@font-face {
+  font-family: InaiMathi;
+  src: url(InaiMathi.ttf);
+}
+
+.About-skills h3 {
+  color: #f4f5f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-family: 'InaiMathi', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  margin-bottom: 10px;
+}
+
+.About-skills li {
+  color: #f4f5f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  padding-bottom: 30px;
 }
