@@ -22,7 +22,7 @@
 }
 
 .notif-bar h4 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: white;
   font-style: normal;
   font-weight: 700;
@@ -52,7 +52,7 @@
 .introduction h1 {
   width: 87.2%;
   height: fit-content;
-  font-family: "Crete Round", sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -67,7 +67,7 @@
 .introduction h3 {
   width: 87.2%;
   height: 27px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -80,7 +80,7 @@
 .introduction p {
   width: 87.2%;
   height: 123px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -313,14 +313,13 @@
 
 /* form section */
 
-.form-section{
+.form-section {
   padding: 120px 24px;
   display: flex;
   justify-content: center;
-
 }
 
-.form-section h2{
+.form-section h2 {
   width: 327px;
   height: 216px;
   font-family: 'Inter', sans-serif;
@@ -329,7 +328,7 @@
   font-size: 32px;
   line-height: 44px;
   text-align: center;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 #form-section {
@@ -337,7 +336,7 @@
   flex-direction: column;
   align-items: center;
   padding-top: 6rem;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 #form-section h2 {
@@ -413,8 +412,8 @@ input:focus:invalid {
 
 button,
 #submit {
-   background-color: turquoise; /*#f55800; */
-  font-family: "Inter", sans-serif;
+  background-color: #f55800;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   color: #fff;
   border: none;
