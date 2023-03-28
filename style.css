@@ -420,11 +420,12 @@ input:focus:invalid {
   padding: 0.7rem;
 }
 
-#submit:hover{
-  background-color:#fff5e1 ;
-  color:#f55800 ;
+#submit:hover {
+  background-color: #fff5e1;
+  color: #f55800;
 }
- #submit:active{
+
+#submit:active {
   background-color: #e05304;
   color: #f4f1f0;
- }
+}
