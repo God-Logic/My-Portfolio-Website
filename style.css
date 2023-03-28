@@ -22,7 +22,7 @@
 }
 
 .notif-bar h4 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: white;
   font-style: normal;
   font-weight: 700;
@@ -52,7 +52,7 @@
 .introduction h1 {
   width: 87.2%;
   height: fit-content;
-  font-family: "Crete Round", sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -67,7 +67,7 @@
 .introduction h3 {
   width: 87.2%;
   height: 27px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -80,7 +80,7 @@
 .introduction p {
   width: 87.2%;
   height: 123px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -309,4 +309,123 @@
   font-size: 22px;
   line-height: 43px;
   padding-bottom: 30px;
+}
+
+/* form section */
+
+.form-section {
+  padding: 120px 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.form-section h2 {
+  width: 327px;
+  height: 216px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+}
+
+#form-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 6rem;
+  font-family: 'Inter', sans-serif;
+}
+
+#form-section h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #172b4d;
+  text-align: center;
+  line-height: 2.5rem;
+  padding: 0 2rem;
+}
+
+#form-section fieldset {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  border: none;
+}
+
+.inputs {
+  padding: 1.2rem;
+  width: 80vw;
+  border: none;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  border-bottom: 1px solid #dbd8d7;
+}
+
+#comments {
+  height: 6rem;
+  background-color: #fbf8f7;
+  border: none;
+  padding: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.gap {
+  margin-right: 0.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #dfe1e6;
+  padding: 0 2rem 2rem 2rem;
+}
+
+input:valid {
+  outline: none;
+}
+
+input:focus:invalid {
+  outline: thin solid red;
+}
+
+#form-icons {
+  width: 100%;
+  height: 5.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.small.hidden {
+  display: none;
+}
+
+.small.show {
+  color: red;
+}
+
+#submit {
+  background-color: #f55800;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  border: none;
+  font-size: 1.1rem;
+  padding: 0.7rem;
+}
+
+#submit:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+#submit:active {
+  background-color: #e05304;
+  color: #f4f1f0;
 }
