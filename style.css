@@ -410,7 +410,6 @@ input:focus:invalid {
   color: red;
 }
 
-button,
 #submit {
   background-color: #f55800;
   font-family: 'Inter', sans-serif;
