@@ -341,6 +341,27 @@ transform: scale(1.1);
   line-height: 24px;
 }
 
+<<<<<<< HEAD
+=======
+.Works button:hover {
+  animation-name: zoom;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.03);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+>>>>>>> d806e4b3d45d7296b0406093486b1865b52f9f8d
 
 .About-Me button {
   font-family: 'Inter', sans-serif;
