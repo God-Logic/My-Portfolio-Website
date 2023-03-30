@@ -800,8 +800,6 @@ input:focus:invalid {
     border: solid rgb(5, 25, 89) 2px;
   }
 
-
-
   .card-3:hover button {
     opacity: 1;
   }
