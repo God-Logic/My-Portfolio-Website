@@ -127,6 +127,27 @@ body {
   margin-top: 0;
 }
 
+.introduction h1:hover {
+  animation-name: zoom;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.03);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
 .introduction h3 {
   width: 87.2%;
   height: 27px;
@@ -202,6 +223,20 @@ body {
   width: 90%;
 }
 
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.03);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
 .About-Me h2 {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
@@ -224,6 +259,13 @@ body {
   line-height: 44px;
   text-align: center;
   color: #172b4d;
+}
+
+.About-Me h2:hover {
+  animation-name: zoom;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
 }
 
 .Works h2:hover {
@@ -286,6 +328,20 @@ body {
   color: #091e42;
 }
 
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.03);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
 .About-skills h3 {
   color: #f4f5f7;
   display: flex;
@@ -298,6 +354,14 @@ body {
   font-size: 32px;
   line-height: 44px;
   margin-bottom: 10px;
+}
+
+.About-skills h3:hover {
+  animation-name: zoom;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  color: #f4aa80;
 }
 
 .Works h3:hover {
@@ -384,6 +448,26 @@ body {
   font-size: 22px;
   line-height: 43px;
   padding-bottom: 30px;
+  transition: color 2s,;
+}
+
+.About-skills li:hover {
+  animation-timing-function: ease-in-out;
+  color: #f4aa80;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.03);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 .Works li:hover {
@@ -496,6 +580,7 @@ body {
   width: 327px;
   padding-top: 73px;
   height: 280px;
+  background-size: cover;
 }
 
 .card:hover {
@@ -608,8 +693,13 @@ body {
 }
 
 .About-Me button:hover {
+  animation-name: zoom;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
   background: #fff5e1;
   border: 1px solid #f55800;
+  color: #e05304;
 }
 
 .horizontal-line {
@@ -732,8 +822,13 @@ input:focus:invalid {
 }
 
 #submit:hover {
-  background-color: #fff5e1;
-  color: #f55800;
+  animation-name: zoom;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #e05304;
 }
 
 #submit:active {
@@ -762,6 +857,21 @@ input:focus:invalid {
     align-items: center;
     padding: 0;
     gap: 8px;
+    transition: all 2s;
+  }
+
+  .Works ul {
+    width: 297px;
+    height: 40px;
+  }
+
+  .About-skills ul {
+    padding: 0;
+  }
+
+  .notif-bar ul:hover {
+    color: #f4aa80;
+    transform: scale(1.2);
   }
 
   .notif-bar a {
@@ -772,6 +882,11 @@ input:focus:invalid {
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
+    transition: all 2s;
+  }
+
+  .notif-bar a:hover {
+    color: #f4aa80;
   }
 
   /* introduction page */
@@ -793,6 +908,11 @@ input:focus:invalid {
     width: fit-content;
     padding-right: 100px;
     padding-top: 351px;
+    transition: all 2s;
+  }
+
+  .social-Dskt:hover {
+    transform: scale(1.1);
   }
 
   .intro-Dskt {
@@ -878,11 +998,6 @@ input:focus:invalid {
     font-size: 20px;
     line-height: 28px;
     overflow: hidden;
-  }
-
-  .Works ul {
-    width: 297px;
-    height: 40px;
   }
 
   .group-1 {
@@ -1075,10 +1190,6 @@ input:focus:invalid {
   .About-skills ul li {
     display: flex;
     justify-content: flex-start;
-  }
-
-  .About-skills ul {
-    padding: 0;
   }
 
   /* form-seciton */
