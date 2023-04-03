@@ -122,14 +122,8 @@ Run "npx stylelint "**/*.{css,scss}" --fix " to fix linters
 
 ### Deployment
 
-You can deploy this project using:
+You can deploy this project using:https://god-logic.github.io/My-Portfolio-Website/
 
-
-Example:
-
-```sh
-No deployments required
-```
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
