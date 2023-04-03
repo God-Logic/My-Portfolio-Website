@@ -25,8 +25,14 @@ body {
   background-color: #3c3a39;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   padding: 0 24px 0 24px;
+  transition: transform 2s, background-color 2s;
+}
+
+.notif-bar:hover {
+  zoom: 1;
+  background-color: #343a43;
 }
 
 .notif-bar h4 {
@@ -39,13 +45,62 @@ body {
   height: fit-content;
   width: fit-content;
   float: left;
+  transition: color 2s, zoom 2s, transform 2s;
+}
+
+.notif-bar h4:hover {
+  color: #f4aa80;
+  transform: scale(1.3);
+}
+
+.hamburger-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 10px;
+  cursor: pointer;
 }
 
 .hamburger {
-  height: 12px;
-  float: right;
-  width: fit-content;
-  margin-bottom: 29px;
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: whitesmoke;
+  transition: all 2s ease-out;
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: "";
+  display: flex;
+  width: 25px;
+  height: 3px;
+  background-color: whitesmoke;
+  transition: all 2s ease-out;
+}
+
+.hamburger::before {
+  transform: translateY(-8px);
+}
+
+.hamburger::after {
+  transform: translateY(6px);
+}
+
+.hamburger-menu:hover .hamburger::before {
+  transform: translateY(-5px);
+  background-color: #f4aa80;
+}
+
+.hamburger-menu:hover .hamburger::after {
+  transform: translateY(2px);
+  background-color: #f4aa80;
+}
+
+.hamburger-menu:hover .hamburger {
+  transform: scaleX(0.8);
+  background-color: #f4aa80;
 }
 
 .introduction {
@@ -70,6 +125,27 @@ body {
   margin-bottom: 0;
   overflow: hidden;
   margin-top: 0;
+}
+
+.introduction h1:hover {
+  animation-name: zoom;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.03);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 .introduction h3 {
@@ -102,6 +178,11 @@ body {
   gap: 20px;
   align-items: center;
   list-style: none;
+  transition: transform 2s;
+}
+
+.social:hover {
+  transform: scale(1.1);
 }
 
 .Illustration {
@@ -129,9 +210,109 @@ body {
   width: 100%;
 }
 
+.card h2 {
+  padding: 0 13px;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  height: fit-content;
+  margin: 0 0 0 0;
+  width: 90%;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.03);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.About-Me h2 {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  margin-bottom: 24px;
+  margin-top: 0;
+}
+
+.form-section h2 {
+  width: 327px;
+  height: 216px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.About-Me h2:hover {
+  animation-name: zoom;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.Works h2:hover {
+  animation-name: zoom;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.03);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
 .image_one {
   padding-top: 80px;
   width: 100%;
+}
+
+.image_one:hover {
+  animation-name: zoom;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.03);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 .Works h3 {
@@ -145,6 +326,63 @@ body {
   display: flex;
   align-items: center;
   color: #091e42;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.03);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.About-skills h3 {
+  color: #f4f5f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-family: 'InaiMathi', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  margin-bottom: 10px;
+}
+
+.About-skills h3:hover {
+  animation-name: zoom;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  color: #f4aa80;
+}
+
+.Works h3:hover {
+  animation: iteration count 1px;
+  animation-name: zoom;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.03);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 .Works p {
@@ -183,6 +421,74 @@ body {
   font-size: 15px;
   line-height: 20px;
   color: #091e42;
+}
+
+.card li {
+  border: none;
+  background-color: grey;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 10px 12px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  align-items: center;
+}
+
+.About-skills li {
+  color: #f4f5f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  padding-bottom: 30px;
+  transition: color 2s,;
+}
+
+.About-skills li:hover {
+  animation-timing-function: ease-in-out;
+  color: #f4aa80;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.03);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.Works li:hover {
+  animation-name: zoom;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.03);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 .Works button {
@@ -241,8 +547,27 @@ body {
 }
 
 .Works button:hover {
+  animation-name: zoom;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
   background: #fff5e1;
   border: 1px solid #f55800;
+  color: #e05304;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.03);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 .all-card {
@@ -255,19 +580,70 @@ body {
   width: 327px;
   padding-top: 73px;
   height: 280px;
+  background-size: cover;
 }
 
-.card h2 {
-  padding: 0 13px;
-  font-family: 'Crete Round', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 44px;
-  color: #fff;
-  height: fit-content;
-  margin: 0 0 0 0;
-  width: 90%;
+.card:hover {
+  animation-name: zoom;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.03);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.card-2:hover {
+  animation-name: zoom;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.03);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.card-3:hover {
+  animation-name: zoom;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.03);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 .card p {
@@ -291,21 +667,6 @@ body {
   height: 40px;
 }
 
-.card li {
-  border: none;
-  background-color: grey;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  padding: 10px 12px;
-  display: flex;
-  justify-content: center;
-  color: #fff;
-  align-items: center;
-}
-
 .card button:hover {
   background-color: #fff5e1;
   color: #f55800;
@@ -322,18 +683,6 @@ body {
   height: 450px;
 }
 
-.About-Me h2 {
-  font-family: 'Crete Round', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 72px;
-  line-height: 88px;
-  letter-spacing: 0.37px;
-  color: #ff6b00;
-  margin-bottom: 24px;
-  margin-top: 0;
-}
-
 .About-Me p {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -344,8 +693,13 @@ body {
 }
 
 .About-Me button:hover {
+  animation-name: zoom;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
   background: #fff5e1;
   border: 1px solid #f55800;
+  color: #e05304;
 }
 
 .horizontal-line {
@@ -370,50 +724,12 @@ body {
   src: url(InaiMathi.ttf);
 }
 
-.About-skills h3 {
-  color: #f4f5f7;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  font-family: 'InaiMathi', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  margin-bottom: 10px;
-}
-
-.About-skills li {
-  color: #f4f5f7;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 43px;
-  padding-bottom: 30px;
-}
-
 /* form section */
 
 .form-section {
   padding: 120px 24px;
   display: flex;
   justify-content: center;
-}
-
-.form-section h2 {
-  width: 327px;
-  height: 216px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  text-align: center;
-  color: #172b4d;
 }
 
 #form-section {
@@ -506,8 +822,13 @@ input:focus:invalid {
 }
 
 #submit:hover {
-  background-color: #fff5e1;
-  color: #f55800;
+  animation-name: zoom;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #e05304;
 }
 
 #submit:active {
@@ -536,6 +857,21 @@ input:focus:invalid {
     align-items: center;
     padding: 0;
     gap: 8px;
+    transition: all 2s;
+  }
+
+  .Works ul {
+    width: 297px;
+    height: 40px;
+  }
+
+  .About-skills ul {
+    padding: 0;
+  }
+
+  .notif-bar ul:hover {
+    color: #f4aa80;
+    transform: scale(1.2);
   }
 
   .notif-bar a {
@@ -546,6 +882,11 @@ input:focus:invalid {
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
+    transition: all 2s;
+  }
+
+  .notif-bar a:hover {
+    color: #f4aa80;
   }
 
   /* introduction page */
@@ -567,6 +908,11 @@ input:focus:invalid {
     width: fit-content;
     padding-right: 100px;
     padding-top: 351px;
+    transition: all 2s;
+  }
+
+  .social-Dskt:hover {
+    transform: scale(1.1);
   }
 
   .intro-Dskt {
@@ -652,11 +998,6 @@ input:focus:invalid {
     font-size: 20px;
     line-height: 28px;
     overflow: hidden;
-  }
-
-  .Works ul {
-    width: 297px;
-    height: 40px;
   }
 
   .group-1 {
@@ -849,10 +1190,6 @@ input:focus:invalid {
   .About-skills ul li {
     display: flex;
     justify-content: flex-start;
-  }
-
-  .About-skills ul {
-    padding: 0;
   }
 
   /* form-seciton */
