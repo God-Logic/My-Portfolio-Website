@@ -1017,8 +1017,7 @@ input:focus:invalid {
     width: 33.33%;
     height: 500px;
     background-image: url(images/Card\ 4.png);
-    background-size: cover;
-    background-position: center;
+    object-fit: cover;
     transition: background-image 0.7s;
     margin: 24px 24px 24px 10px;
     padding-top: 0;
@@ -1105,7 +1104,6 @@ input:focus:invalid {
     height: 500px;
     background-image: url(images/Card\ 2.png);
     background-size: cover;
-    background-position: center;
     transition: background-image 0.7s;
     margin: 24px 12px 24px 12px;
   }
@@ -1131,7 +1129,6 @@ input:focus:invalid {
     height: 500px;
     background-image: url(images/Card\ 3.png);
     background-size: cover;
-    background-position: center;
     transition: background-image 0.7s;
     margin: 24px 24px;
   }
