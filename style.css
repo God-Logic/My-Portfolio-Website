@@ -21,6 +21,10 @@ body {
 
 /* Introduction section */
 .notif-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   height: 92px;
   background-color: #3c3a39;
   display: flex;
@@ -28,6 +32,8 @@ body {
   align-items: center;
   padding: 0 24px 0 24px;
   transition: transform 2s, background-color 2s;
+  z-index: 9999;
+  margin: -2px -2px 0 -2px ;
 }
 
 .notif-bar:hover {
@@ -1013,7 +1019,7 @@ input:focus:invalid {
   }
 
   .card {
-    position: relative;
+    /* position: relative; */
     width: 33.33%;
     height: 500px;
     background-image: url(images/Card\ 4.png);
@@ -1099,7 +1105,7 @@ input:focus:invalid {
   }
 
   .card-2 {
-    position: relative;
+    /* position: relative; */
     width: 33.33%;
     height: 500px;
     background-image: url(images/Card\ 2.png);
@@ -1124,7 +1130,7 @@ input:focus:invalid {
   }
 
   .card-3 {
-    position: relative;
+    /* position: relative; */
     width: 33.33%;
     height: 500px;
     background-image: url(images/Card\ 3.png);
