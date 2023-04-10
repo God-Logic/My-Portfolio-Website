@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@100&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,700;1,100&display=swap");
 
-*{
+* {
   list-style: none;
 }
+
 body {
   padding: 0;
   margin: 0;
@@ -112,54 +113,52 @@ body {
   background-color: #f4aa80;
 }
 
-.mobile-menu{
-  left: 0px;
-  right: 0px;
-  top: 0px;
+.mobile-menu {
+  left: 0;
+  right: 0;
+  top: 0;
   bottom: 57px;
   height: 100vh;
   position: fixed;
   background-color: #262626;
-  z-index:9999 ;
+  z-index: 9999;
   display: none;
-
   padding: 24px 24px;
 }
-.show-menu{
+
+.show-menu {
   display: block;
 }
 
-.hide-menu{
+.hide-menu {
   display: none;
 }
 
-.close-icon{
-display: flex;
-justify-content: flex-end;
-margin-bottom:100px ;
+.close-icon {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 100px;
 }
 
-.mobile-menu a{
-  font-family: 'Inter';
+.mobile-menu a {
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
   align-items: center;
-  color: #FFF5E1;
-  padding-left:18px ;
+  color: #fff5e1;
+  padding-left: 18px;
   text-decoration: none;
-
-  
 }
-.mobile-menu hr{
+
+.mobile-menu hr {
   border-top-style: none;
-  border-right-style:none;
-  border-left-style:none;
+  border-right-style: none;
+  border-left-style: none;
   width: 100%;
   size: 1px;
-  border-color: #6F6C6B;
-
+  border-color: #6f6c6b;
 }
 
 .introduction {
@@ -231,18 +230,17 @@ margin-bottom:100px ;
   color: #fff;
 }
 
-.social{
+.social {
   display: flex;
   gap: 20px;
   align-items: center;
   padding-top: 24px;
 }
 
-.social a{
-    transition: transform 2s;
-  
+.social a {
+  transition: transform 2s;
 }
-  
+
 .social a:hover {
   transform: scale(1.1);
 }
@@ -931,9 +929,10 @@ input:focus:invalid {
     padding: 0;
   }
 
-  .notif-bar li{
-    transition: all 0.2s
-  };
+  .notif-bar li {
+    transition: all 0.2s;
+  }
+  
 
   .notif-bar li:hover {
     color: #f4aa80;
@@ -1250,10 +1249,7 @@ input:focus:invalid {
     justify-content: space-between;
   }
 
-  .About-skills ul li {
-    display: flex;
-    justify-content: flex-start;
-  }
+
 
   /* form-seciton */
 
