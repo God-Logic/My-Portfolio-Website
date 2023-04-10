@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@100&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,700;1,100&display=swap");
 
+*{
+  list-style: none;
+}
 body {
   padding: 0;
   margin: 0;
@@ -32,7 +35,7 @@ body {
   align-items: center;
   padding: 0 24px 0 24px;
   transition: transform 2s, background-color 2s;
-  z-index: 9999;
+  z-index: 9998;
   margin: -2px -2px 0 -2px;
 }
 
@@ -109,6 +112,56 @@ body {
   background-color: #f4aa80;
 }
 
+.mobile-menu{
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 57px;
+  height: 100vh;
+  position: fixed;
+  background-color: #262626;
+  z-index:9999 ;
+  display: none;
+
+  padding: 24px 24px;
+}
+.show-menu{
+  display: block;
+}
+
+.hide-menu{
+  display: none;
+}
+
+.close-icon{
+display: flex;
+justify-content: flex-end;
+margin-bottom:100px ;
+}
+
+.mobile-menu a{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  align-items: center;
+  color: #FFF5E1;
+  padding-left:18px ;
+  text-decoration: none;
+
+  
+}
+.mobile-menu hr{
+  border-top-style: none;
+  border-right-style:none;
+  border-left-style:none;
+  width: 100%;
+  size: 1px;
+  border-color: #6F6C6B;
+
+}
+
 .introduction {
   background-image: url(images/Illustration.png);
   background-repeat: no-repeat;
@@ -176,18 +229,21 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #fff;
-  overflow: hidden;
 }
 
-.social {
+.social{
   display: flex;
   gap: 20px;
   align-items: center;
-  list-style: none;
-  transition: transform 2s;
+  padding-top: 24px;
 }
 
-.social:hover {
+.social a{
+    transition: transform 2s;
+  
+}
+  
+.social a:hover {
   transform: scale(1.1);
 }
 
@@ -863,7 +919,7 @@ input:focus:invalid {
     align-items: center;
     padding: 0;
     gap: 8px;
-    transition: all 2s;
+    transition: all 0.2s;
   }
 
   .Works ul {
@@ -875,7 +931,11 @@ input:focus:invalid {
     padding: 0;
   }
 
-  .notif-bar ul:hover {
+  .notif-bar li{
+    transition: all 0.2s
+  };
+
+  .notif-bar li:hover {
     color: #f4aa80;
     transform: scale(1.2);
   }
