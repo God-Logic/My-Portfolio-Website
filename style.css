@@ -932,7 +932,6 @@ input:focus:invalid {
   .notif-bar li {
     transition: all 0.2s;
   }
-  
 
   .notif-bar li:hover {
     color: #f4aa80;
@@ -1248,8 +1247,6 @@ input:focus:invalid {
     display: flex;
     justify-content: space-between;
   }
-
-
 
   /* form-seciton */
 
