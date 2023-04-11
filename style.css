@@ -1300,7 +1300,7 @@ input:focus:invalid {
   }
   .alt-card{
     /* width: 33.33%; */
-    height: 50vh;
+    height: 60vh;
     border: solid red 2px;
     padding: 178px 24px 24px 24px;
     /* background-image: url(images/alt-card.png); */
