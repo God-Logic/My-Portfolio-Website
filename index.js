@@ -21,3 +21,46 @@ window.onload = () => {
     document.querySelector('.mobile-menu').classList.add('hide-menu');
   };
 };
+
+const datas = [
+  {
+    image: "images/yoga-image.png",
+    name: "Multi-Post Stories",
+    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    technologies: ["css", "html", "bootstrap", "Ruby"],
+    live: "https://god-logic.github.io/My-Portfolio-Website/",
+    source: "https://github.com/God-Logic/My-Portfolio-Website"
+  },
+  {
+   image: "images/yoga-image.png",
+   name: "Multi-Post Stories",
+   description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+   technologies: ["css", "html", "bootstrap", "Ruby"],
+   live: "https://god-logic.github.io/My-Portfolio-Website/",
+   source: "https://github.com/God-Logic/My-Portfolio-Website"
+ },
+ {
+   image: "images/yoga-image.png",
+   name: "Multi-Post Stories",
+   description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+   technologies: ["css", "html", "bootstrap", "Ruby"],
+   live: "https://god-logic.github.io/My-Portfolio-Website/",
+   source: "https://github.com/God-Logic/My-Portfolio-Website"
+ },
+ {
+   image: "images/yoga-image.png",
+   name: "Multi-Post Stories",
+   description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+   technologies: ["css", "html", "bootstrap", "Ruby"],
+   live: "https://god-logic.github.io/My-Portfolio-Website/",
+   source: "https://github.com/God-Logic/My-Portfolio-Website"
+ },
+ {
+   image: "images/yoga-image.png",
+   name: "Multi-Post Stories",
+   description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+   technologies: ["css", "html", "bootstrap", "Ruby"],
+   live: "https://god-logic.github.io/My-Portfolio-Website/",
+   source: "https://github.com/God-Logic/My-Portfolio-Website"
+ },
+ ]
