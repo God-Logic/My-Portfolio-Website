@@ -9,7 +9,7 @@ const datas = [
   //   source: "https://github.com/God-Logic/My-Portfolio-Website",
   // },
   {
-    image: "images/Card 4.png",
+    image: "images/Card 1.png",
     name: "Profesional Art Printing Data More",
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
@@ -36,7 +36,7 @@ const datas = [
     source: "https://github.com/God-Logic/My-Portfolio-Website",
   },
   {
-    image: "images/Card 4.png",
+    image: "images/Card 1.png",
     name: "Profesional Art Printing Data More",
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
