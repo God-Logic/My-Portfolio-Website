@@ -1119,9 +1119,11 @@ input:focus:invalid {
   }
 
   .middle-part {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* align-items: center; */
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
     gap: 24px;
     width: 100%;
   }
@@ -1297,11 +1299,11 @@ input:focus:invalid {
     border: #ff6b00 solid 2px;
   }
   .alt-card{
-    width: 33.33%;
-    height: 40vh;
+    /* width: 33.33%; */
+    height: 50vh;
     border: solid red 2px;
     padding: 178px 24px 24px 24px;
-    background-image: url(images/alt-card.png);
+    /* background-image: url(images/alt-card.png); */
     background-repeat: none;
     background-size: cover;
   }
@@ -1326,7 +1328,7 @@ input:focus:invalid {
   .alt-card ul{
     display: flex;
     gap: 20px;
-    padding-top: 40px;
+    /* padding-top: 40px; */
   }
 
 .alt-card li {

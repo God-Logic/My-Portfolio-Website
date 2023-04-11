@@ -104,7 +104,15 @@ window.onload = () => {
   // }
 
   const card = (data) => {
-    return ``
+    return `<div class="alt-card" style="background:url('${data.image}')">
+    <h2>${data.name}</h2>
+    <p>${data.description}</p>
+    <ul>
+      <li>${data.technologies[0]}</li>
+      <li>${data.technologies[1]}</li>
+      <li>${data.technologies[2]}</li>
+    </ul>
+  </div>`
   }
 
   // console.log(document.querySelector('.middle-part'))
