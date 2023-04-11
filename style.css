@@ -1296,6 +1296,50 @@ input:focus:invalid {
     background-color: #fff5e1;
     border: #ff6b00 solid 2px;
   }
+  .alt-card{
+    width: 33.33%;
+    height: 40vh;
+    border: solid red 2px;
+    padding: 178px 24px 24px 24px;
+    background-image: url(images/alt-card.png);
+    background-repeat: none;
+    background-size: cover;
+  }
+  .alt-card h2{
+    color:#ffffff;
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    padding-bottom: 24px;
+  }
+  .alt-card p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+
+  .alt-card ul{
+    display: flex;
+    gap: 20px;
+    padding-top: 40px;
+  }
+
+.alt-card li {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+  background-color:rgba(255, 255, 255, 0.24); 
+  border-style: none;
+}
+
 
   /* About me page */
 
