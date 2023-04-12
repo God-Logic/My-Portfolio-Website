@@ -118,6 +118,7 @@ window.onload = () => {
       <li>${data.technologies[1]}</li>
       <li>${data.technologies[2]}</li>
     </ul>
+    <button class="see-project">See Project</button>
   </div>`
   }
 
@@ -125,14 +126,25 @@ window.onload = () => {
 
   // console.log(document.querySelector('.middle-part'))
    document.querySelector('.middle-part').innerHTML = datas.map(data => card(data)).join("")
-   const altCard = document.querySelector('.alt-card')
-   altCard.onmouseover = () => {
-    altCard.style.backgroundImage = `url('${datas[0].imageHover}')`
-   }
+   const altCards = document.querySelectorAll('.alt-card')
 
-   altCard.onmouseout = () => {
-    altCard.style.backgroundImage = `url('${datas[0].image}')`
-   }
+    altCards.forEach(altCard => {
+
+      altCard.onmouseover = () => {
+        altCard.style.backgroundImage = `url('${datas[0].imageHover}')`
+        console.log(button)
+        button.style.opacity = '1'
+       }
+    
+       altCard.onmouseout = () => {
+        altCard.style.backgroundImage = `url('${datas[0].image}')`
+       }
+
+    })
+
+   const button = document.querySelector(".see-project")
+
+    
 
   
 
