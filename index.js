@@ -10,6 +10,7 @@ const datas = [
   // },
   {
     image: "images/Card 1.png",
+    imageHover: "images/backround\ image.png",
     name: "Profesional Art Printing Data More",
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
@@ -19,6 +20,7 @@ const datas = [
   },
   {
     image: "images/Card 2.png",
+    imageHover: "images/backround\ image.png",
     name: "Multi-Post Stories",
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
@@ -28,6 +30,7 @@ const datas = [
   },
   {
     image: "images/Card 3.png",
+    imageHover: "images/backround\ image.png",
     name: "Multi-Post Stories",
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
@@ -37,6 +40,7 @@ const datas = [
   },
   {
     image: "images/Card 1.png",
+    imageHover: "images/backround\ image.png",
     name: "Profesional Art Printing Data More",
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
@@ -46,6 +50,7 @@ const datas = [
   },
   {
     image: "images/Card 2.png",
+    imageHover: "images/backround\ image.png",
     name: "Multi-Post Stories",
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
@@ -55,6 +60,7 @@ const datas = [
   },
   {
     image: "images/Card 3.png",
+    imageHover: "images/backround\ image.png",
     name: "Multi-Post Stories",
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
@@ -119,7 +125,14 @@ window.onload = () => {
 
   // console.log(document.querySelector('.middle-part'))
    document.querySelector('.middle-part').innerHTML = datas.map(data => card(data)).join("")
+   const altCard = document.querySelector('.alt-card')
+   altCard.onmouseover = () => {
+    altCard.style.backgroundImage = `url('${datas[0].imageHover}')`
+   }
 
+   altCard.onmouseout = () => {
+    altCard.style.backgroundImage = `url('${datas[0].image}')`
+   }
 
   
 
