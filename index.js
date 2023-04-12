@@ -118,7 +118,7 @@ window.onload = () => {
   
 
   // console.log(document.querySelector('.middle-part'))
-  // document.querySelector('.middle-part').innerHTML = datas.map(data => card(data)).join("")
+   document.querySelector('.middle-part').innerHTML = datas.map(data => card(data)).join("")
 
 
   
