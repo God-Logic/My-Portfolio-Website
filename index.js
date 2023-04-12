@@ -104,7 +104,7 @@ window.onload = () => {
   // }
 
   const card = (data) => {
-    return `<div class="alt-card" style="background:url('${data.image}')">
+    return `<div class="alt-card" style="background:url('${data.image}');background-repeat:no-repeat;background-size:cover;">
     <h2>${data.name}</h2>
     <p>${data.description}</p>
     <ul>
@@ -115,8 +115,10 @@ window.onload = () => {
   </div>`
   }
 
+  
+
   // console.log(document.querySelector('.middle-part'))
-  document.querySelector('.middle-part').innerHTML = datas.map(data => card(data)).join("")
+  // document.querySelector('.middle-part').innerHTML = datas.map(data => card(data)).join("")
 
 
   
