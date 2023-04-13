@@ -1455,3 +1455,8 @@ input:focus:invalid {
   background-color: #fff5e1;
   border: solid #f55800 2px;
 }
+
+.popclose {
+  width: 20px;
+  height: 20px;
+}
