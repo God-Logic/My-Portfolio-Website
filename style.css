@@ -11,18 +11,6 @@ body {
   height: 100%;
 }
 
-@media (max-width: 768px) {
-  .notif-bar ul,
-  .essage-icon,
-  .social-Dskt,
-  .group1,
-  .dsktp-cards,
-  .group2,
-  .dskt-about-skills {
-    display: none;
-  }
-}
-
 /* Introduction section */
 .whole-popup{
 display: flex;
@@ -991,6 +979,7 @@ input:focus:invalid {
   color: #f4f1f0;
 }
 
+
 @media (min-width: 768px) {
   .hamburger,
   .multi-cards,
@@ -998,7 +987,7 @@ input:focus:invalid {
   h2.mobile-h2 {
     display: none;
   }
-
+  
   /* notification bar */
 
 
@@ -1425,5 +1414,20 @@ h2.deskt-h2::before{
 
   #form-icons {
     border-top: 2px solid#DFE1E6;
+  }
+}
+
+@media (max-width: 768px) {
+  .notif-bar ul,
+  .essage-icon,
+  .social-Dskt,
+  .group1,
+  .dsktp-cards,
+  .group2,
+  .dskt-about-skills {
+    display: none;
+  }
+  .alt-card{
+    background-image: url(images/Card1.png);
   }
 }
