@@ -1,4 +1,4 @@
-const data = [
+const datas = [
   {
     image: '../images/Card 1.png',
     imageHover: '../images/backround image.png',
@@ -124,4 +124,41 @@ window.onload = () => {
   popclose.onclick = () => {
     popup.style.display = 'none';
   };
+
+  const email = document.getElementById("email")
+  let emailError = document.querySelector(".email-error")
+  const error = "Email has to be in lower case";
+
+  email.onkeyup = (e) => {
+    emailError.textContent = e.target.value;
+    let val = e.target.value.replace(/[^a-z]/gi, '')
+    let last = val.slice(-1)
+
+    if (last.toUpperCase() === last && last !== '') {
+      emailError.textContent = error
+
+      shaking(emailError)
+    }
+
+
+    else {
+      if (val.match(/[A-Z]/)) {
+        emailError.textContent = error
+      }
+
+      else
+        emailError.textContent = ""
+    }
+  }
+  const form = document.querySelector("form")
+
+  form.onsubmit = () => {
+
+    if (emailError.textContent) {
+      emailError.textContent = error
+      return false
+    }
+
+  }
+
 };
