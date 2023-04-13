@@ -31,8 +31,17 @@ padding-top: 40px;
 padding-bottom:30px ;
 }
 
+.pophead{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+
 #popup{
-  display: none;
+  display:none;
+  
   padding: 16px 16px 20px 16px;
   z-index:9999;
   position: fixed;
@@ -666,6 +675,7 @@ padding-bottom:30px ;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
+  
 }
 
 .About-Me button {
@@ -826,10 +836,10 @@ padding-bottom:30px ;
   height: 40px;
 }
 
-/* .card button:hover {
+.card button:hover {
   background-color: #fff5e1;
-  color: #f55800; */
-
+  color: #f55800;
+}
 
 /* The About me section */
 
@@ -984,17 +994,86 @@ input:focus:invalid {
 @media (min-width: 768px) {
   .hamburger,
   .multi-cards,
-  .social {
+  .social,
+  h2.mobile-h2 {
     display: none;
   }
 
   /* notification bar */
 
+
+h2.deskt-h2::before{
+  content: "Keeping track of hundreds  of components website";
+  display: block;
+}
+
+#popup p{
+   width: 100%;
+   font-size: 16px;
+   color: #091e42;
+   float:right;
+}
+
+#popup p::after{
+  content:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.";
+  display: block;
+  margin-top: 20px ;
+}
+
+.whole-popup{
+  width: 100%;
+  padding-top: 100px;
+  
+
+
+}
+
+  #popup{
+  
+    height: 72%;
+    width: 80%;
+    padding: 2.07% 3.01% ;
+    gap: 30px;
+  }
+
+  .pop-body{
+    display: flex;
+    gap: 20px;
+    padding: 0 0 24px 0;
+    height: fit-content;
+
+  }
+
+  .popfirst{
+    width:60%;
+    ;
+  }
+
+  .popsecond{
+    position: relative;
+    padding: 60px 0 0 0;
+    width: 45%;
+  }
+
+  #popup img{
+    width: 100%;
+  
+  }
+
+  #popup .source-btn{
+    display: flex;
+    justify-content: left;
+    gap: 30px;
+    position: absolute;
+    left: 1;
+    bottom: 0;
+  }
   .notif-bar {
     padding-left: 150px;
     padding-right: 141px;
     height: 72px;
   }
+
 
   .notif-bar ul {
     display: flex;
@@ -1046,6 +1125,9 @@ input:focus:invalid {
     display: flex;
     background-size: 40%;
     background-position: top right;
+    position: relative;
+    top: -63px;
+
   }
 
   .social-Dskt {
@@ -1235,6 +1317,7 @@ input:focus:invalid {
     display: flex;
     gap: 20px;
     bottom: 24px;
+    
   }
 
 .alt-card li {
@@ -1246,6 +1329,7 @@ input:focus:invalid {
   color: #ffffff;
   background-color:rgba(255, 255, 255, 0.24); 
   border-style: none;
+
 }
 
 .alt-card p,

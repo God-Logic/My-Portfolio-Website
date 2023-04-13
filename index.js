@@ -1,13 +1,4 @@
 const datas = [
-  // {
-  //   image: "images/yoga-image.png",
-  //   name: "Multi-Post Stories",
-  //   description:
-  //     "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-  //   technologies: ["css", "html", "bootstrap", "Ruby"],
-  //   live: "https://god-logic.github.io/My-Portfolio-Website/",
-  //   source: "https://github.com/God-Logic/My-Portfolio-Website",
-  // },
   {
     image: "images/Card 1.png",
     imageHover: "images/backround\ image.png",
@@ -94,20 +85,6 @@ window.onload = () => {
     document.querySelector('.mobile-menu').classList.add('hide-menu');
   };
   
-  // const card = (data) => {
-  //   return `<img src=${data.image} alt="yoga illustration" class = image_one>
-    
-  //   <div class="multi-post">
-  //       <h3>${data.name}</h3>
-  //       <p>${data.description}</p>
-  //       <ul>
-  //         <li>${data.technologies[0]}</li>
-  //         <li>${data.technologies[1]}</li>
-  //         <li>${data.technologies[2]}</li>
-  //       </ul>
-  //       <button>See Project</button>
-  //   </div>`
-  // }
 
   const card = (data) => {
     return `<div class="alt-card" style="background:url('${data.image}');background-repeat:no-repeat;background-size:cover;">
@@ -124,25 +101,35 @@ window.onload = () => {
 
   
 
-  // console.log(document.querySelector('.middle-part'))
+  console.log(document.querySelector('.middle-part'))
    document.querySelector('.middle-part').innerHTML = datas.map(data => card(data)).join("")
    const altCards = document.querySelectorAll('.alt-card')
 
-    altCards.forEach(altCard => {
+    altCards.forEach((altCard,i) => {
 
       altCard.onmouseover = () => {
-        altCard.style.backgroundImage = `url('${datas[0].imageHover}')`
+        altCard.style.backgroundImage = `url('${datas[i].imageHover}')`
         console.log(button)
         button.style.opacity = '1'
        }
     
        altCard.onmouseout = () => {
-        altCard.style.backgroundImage = `url('${datas[0].image}')`
+        console.log(`url('${datas[0].image}')`);
+        altCard.style.backgroundImage = `url('${datas[i].image}')`
+        button.style.opacity = "0";
        }
 
     })
 
    const button = document.querySelector(".see-project")
+   const popup = document.querySelector("#popup");
+   button.onclick = () => {
+   popup.style.display = "block"
+   }
+   const popclose = document.querySelector(".popclose");
+   popclose.onclick = () => {
+    popup.style.display = "none"
+   }
 
     
 
