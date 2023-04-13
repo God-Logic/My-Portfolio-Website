@@ -1,4 +1,4 @@
-const datas = [
+const data = [
   {
     image: '../images/Card 1.png',
     imageHover: '../images/backround image.png',
