@@ -1394,6 +1394,10 @@ input:focus:invalid {
   align-items: center;
 }
 
+.pop-body{
+  padding-bottom: 24px;
+}
+
 #popup {
   display: none;
   padding: 16px 16px 20px 16px;
@@ -1445,12 +1449,17 @@ input:focus:invalid {
 #popup .source-btn {
   display: flex;
   justify-content: space-between;
+  margin-top: 6px;
 }
 
 .source-btn button:hover {
   color: #f55800;
   background-color: #fff5e1;
   border: solid #f55800 2px;
+}
+
+.pop-para{
+  margin-top: 0;
 }
 
 .popclose {
