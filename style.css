@@ -1455,3 +1455,12 @@ input:focus:invalid {
   background-color: #fff5e1;
   border: solid #f55800 2px;
 }
+
+.email-error {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: red;
+}
