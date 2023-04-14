@@ -645,6 +645,7 @@ body {
   letter-spacing: 0.03em;
   gap: 6px;
   padding: 12px 30px 12px 12px;
+  margin-top: 6px;
 }
 
 .Works button:hover {
