@@ -80,7 +80,9 @@ window.onload = () => {
     document.querySelector('.mobile-menu').classList.add('hide-menu');
   };
 
-  const card = (data) => `<div class="alt-card" style=background-repeat:no-repeat;background-size:cover;">
+  const card = (
+    data,
+  ) => `<div class="alt-card" style=background-repeat:no-repeat;background-size:cover;">
     <h2>${data.name}</h2>
     <p>${data.description}</p>
     <ul>
@@ -123,5 +125,38 @@ window.onload = () => {
   const popclose = document.querySelector('.popclose');
   popclose.onclick = () => {
     popup.style.display = 'none';
+  };
+
+  const email = document.getElementById('email');
+  const emailError = document.querySelector('.email-error');
+  const error = 'Email has to be in lower case';
+
+  const shaking = (element) => {
+    element.classList.remove('shaking');
+    setTimeout(() => element.classList.add('shaking'), 0);
+  };
+
+  email.onkeyup = (e) => {
+    emailError.textContent = e.target.value;
+    const val = e.target.value.replace(/[^a-z]/gi, '');
+    const last = val.slice(-1);
+
+    if (last.toUpperCase() === last && last !== '') {
+      emailError.textContent = error;
+
+      shaking(emailError);
+    } else if (val.match(/[A-Z]/)) {
+      emailError.textContent = error;
+    } else {
+      emailError.textContent = '';
+    }
+  };
+  const form = document.querySelector('form');
+
+  form.onsubmit = () => {
+    if (emailError.textContent) {
+      emailError.textContent = error;
+      return false;
+    } return true;
   };
 };
