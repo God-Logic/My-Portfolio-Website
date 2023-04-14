@@ -629,14 +629,30 @@ body {
   justify-content: center;
 }
 
-/* .Works button:hover {
-  animation-name: zoom;
-  animation-duration: 2s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  background: #fff5e1;
-  border: 1px solid #f55800;
-  color: #e05304; */
+.source-btn button {
+  position: relative;
+  background-color: #ff6b00;
+  color: white;
+  border-style: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  gap: 6px;
+  padding: 12px 30px 12px 12px;
+  margin-top: 6px;
+}
+
+.Works button:hover {
+  border: solid #ff6b00 2px;
+  color: #ff6b00;
+  background-color: #fff5e1;
+}
 
 @keyframes zoom {
   0% {
@@ -747,24 +763,6 @@ body {
   display: flex;
   gap: 12px;
   height: 40px;
-}
-
-.source-btn button {
-  position: relative;
-  background-color: #ff6b00;
-  color: white;
-  border-style: none;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  gap: 6px;
-  padding: 12px 30px 12px 12px;
 }
 
 .card button:hover {
@@ -1394,7 +1392,11 @@ input:focus:invalid {
 .pophead {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
+}
+
+.pop-body {
+  padding-bottom: 24px;
 }
 
 #popup {
@@ -1432,7 +1434,7 @@ input:focus:invalid {
   top: 30%;
 }
 
-#popup img {
+.picture {
   width: 100%;
 }
 
@@ -1448,6 +1450,7 @@ input:focus:invalid {
 #popup .source-btn {
   display: flex;
   justify-content: space-between;
+  margin-top: 6px;
 }
 
 .source-btn button:hover {
@@ -1456,6 +1459,7 @@ input:focus:invalid {
   border: solid #f55800 2px;
 }
 
+
 .email-error {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -1463,4 +1467,3 @@ input:focus:invalid {
   font-size: 14px;
   line-height: 20px;
   color: red;
-}
